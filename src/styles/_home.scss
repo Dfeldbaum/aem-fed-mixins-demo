@@ -1,0 +1,12 @@
+// @import "./node_modules/aem-fed-mixins/mixins/_mixins.scss";
+
+.hero {
+    font-family: arial;
+    padding: 150px 50px 50px 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
