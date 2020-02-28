@@ -6,7 +6,7 @@ class Header extends Component {
       <div className="header">
         <div className="nav-wrapper">
           <ul className="nav-wrapper__list">
-            <li onClick={this.props.showDashboard}>Home</li>
+            
           </ul>
 
           <div className="nav-wrapper__name">

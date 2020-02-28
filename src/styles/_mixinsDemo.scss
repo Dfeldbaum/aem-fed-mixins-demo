@@ -1,0 +1,59 @@
+//-----------------------------------
+// Mixins Demo 
+//-----------------------------------
+
+// General Mixins
+//--------------
+
+// .demo__transparent-bg-color {
+//   @include background-color-transparent(#000000, 0.5)
+// }
+
+// .demo__image-mask-gradient {
+//   @include image-mask-gradient;
+// }
+
+
+// Typography Mixins
+//-------------
+// .demo__rem-to-pixels {
+//   font-size: rem(50); // 50 pixels;
+// }
+
+// .demo__h1 {
+//   @include h1
+// }
+
+
+// Flexbox Mixins
+//--------------
+// .demo__flex-container {
+//   @include flexbox;
+//   @include flex-direction(column);
+//   @include justify-content(center);
+//   @include align-items(center);
+// }
+
+
+// Media Query Mixins
+//--------------
+// .demo__resposive-flex-container {
+//   @include flexbox;
+//   width: 100%;
+
+//   @include media-mobile-only { // max-width of 767px
+//     @include flex-direction(column);
+//     @include justify-content(flex-start);
+//     @include align-items(flex-start);  
+//   } 
+  
+//   @include media-tablet-and-up { // min-width of 768px 
+//     @include flex-direction(row);
+//     @include justify-content(center);
+//     @include align-items(center);
+//   }
+
+//   @include media-desktop-large { // min-width of 1200px
+//     max-width: 900px;
+//   }
+// }

@@ -17,6 +17,7 @@ class Home extends Component {
 
     return (
       <div className="hero">
+        <h1 className="demo-title">Pixels to Rem Mixin:</h1>
         <p className="demo-text">AEM FED Mixins</p>
       </div>
 
